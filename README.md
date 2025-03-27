@@ -4,6 +4,7 @@ There isn't much special about this custom OTEL collector, it is simply a minima
 
 - ClickHouse Exporter
 - Debug Exporter
+- OTLP (+ HTTP) Exporter
 - ZPages Extension
 - OTLP Receiver
 - Batch Processor
