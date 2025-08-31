@@ -20,7 +20,7 @@ func main() {
 	info := component.BuildInfo{
 		Command:     "otelcol-apoxy",
 		Description: "Apoxy OpenTelemetry Collector binary",
-		Version:     "1.0.0",
+		Version:     "v1.2.0",
 	}
 
 	set := otelcol.CollectorSettings{

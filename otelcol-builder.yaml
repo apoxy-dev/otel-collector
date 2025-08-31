@@ -2,6 +2,7 @@ dist:
   name: otelcol-apoxy
   description: Apoxy OpenTelemetry Collector binary
   output_path: ./otelcol-apoxy
+  version: v1.2.0
 
 exporters:
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/exporter/clickhouseexporter v0.111.0
@@ -11,6 +12,7 @@ exporters:
 
 extensions:
   - gomod: go.opentelemetry.io/collector/extension/zpagesextension v0.111.0
+  - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/bearertokenauthextension v0.111.0
 
 receivers:
   - gomod: go.opentelemetry.io/collector/receiver/otlpreceiver v0.111.0
